@@ -1,0 +1,10 @@
+Name: Zhixiang He (zhe10)
+
+Special Instruction:
+usage: mytalk [ -v ] [ -a ] [ -N ] [ hostname ] port
+
+    -v : increases verbosity and gives more info
+    -a : (server) accept a connection without asking
+    -N : do not start ncurses windowing (useful while debugging)
+
+Additional info: None
