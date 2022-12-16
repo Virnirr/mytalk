@@ -1,5 +1,3 @@
-Name: Zhixiang He (zhe10)
-
 Special Instruction:
 usage: mytalk [ -v ] [ -a ] [ -N ] [ hostname ] port
 
