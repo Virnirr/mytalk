@@ -7,4 +7,8 @@ usage: mytalk [ -v ] [ -a ] [ -N ] [ hostname ] port
     -a : (server) accept a connection without asking
     -N : do not start ncurses windowing (useful while debugging)
 
-Additional info: None
+mytalk is a program that allows one user on a machine to send and receive any messages from another user on a separate machine in the same network. 
+It will split the screen into two parts, one is the remote user's (host or server) and another machine (client). It will display the remote user's on the
+top half of the screen while displaying the client's machine on the bottom half of the machine. The connection between the two receiving and sending end
+is managed by a talk daemon, whihc is a process existing in the background which waits for another network's connection, then ask the target if they want
+to proceed. 
